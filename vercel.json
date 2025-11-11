@@ -1,0 +1,14 @@
+
+{
+  "version": 2,
+  "buildCommand": "yarn build",
+  "devCommand": "yarn dev",
+  "installCommand": "yarn install",
+  "framework": "nextjs",
+  "regions": ["cdg1"],
+  "env": {
+    "DATABASE_URL": "@database_url",
+    "AWS_BUCKET_NAME": "@aws_bucket_name",
+    "AWS_FOLDER_PREFIX": "@aws_folder_prefix"
+  }
+}
